@@ -58,7 +58,7 @@ body {
   letter-spacing: 0.080rem;
   margin-top: 1.25rem; }
   .introInicio h2 {
-    width: 27rem; }
+    width: 20rem; }
 
 /* FIN */
 /* CLASES-INICIO */
@@ -84,13 +84,15 @@ body {
   align-items: center; }
   .inscripcionInicio p {
     margin-right: 0.3rem;
+    margin-left: 1.5rem;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1rem;
     letter-spacing: 0.063rem;
     color: #333333; }
   .inscripcionInicio a {
-    padding: 18px 30px;
+    padding: 16px 23px;
+    margin-right: 1.3rem;
     transition: background-color .5s;
     background-color: #333333;
     font-size: 0.8rem;
@@ -160,8 +162,9 @@ body {
     text-transform: uppercase;
     color: #FC5C9C; }
   .beneficios p {
-    width: 28rem;
-    text-align: center; }
+    width: 20rem;
+    text-align: center;
+    font-size: 0.9rem; }
 
 /* FIN */
 /* INSCRIPCION */
