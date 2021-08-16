@@ -1,0 +1,224 @@
+@charset "UTF-8";
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200&display=swap");
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+/* FIN */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9f9f9; }
+  body h1 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FC5C9C; }
+  body a {
+    text-decoration: none;
+    color: #000; }
+
+.marginTitulos {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+/* HEADER */
+.menu ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none; }
+
+.menu a {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.938rem;
+  text-transform: uppercase; }
+
+.menu a:hover {
+  letter-spacing: 0.031rem;
+  transition: 0.5s; }
+
+.menu .active {
+  font-size: 1.25rem; }
+
+/* FIN */
+/* PRESENTACIÓN */
+.introInicio {
+  display: grid;
+  height: 8rem;
+  background-color: #FCECEC;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.080rem;
+  margin-top: 1.25rem; }
+  .introInicio h2 {
+    width: 27rem; }
+
+/* FIN */
+/* CLASES-INICIO */
+.clasesInicio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .clasesInicio h5 {
+    text-transform: uppercase;
+    font-size: 1rem; }
+  .clasesInicio a {
+    font-size: 0.625rem;
+    text-transform: uppercase; }
+
+/* FIN */
+/* INSCRIPCIÓN-INICIO */
+.inscripcionInicio {
+  background-image: url(../img/inscripcion-bg.jpg);
+  display: flex;
+  height: 12.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+  align-items: center; }
+  .inscripcionInicio p {
+    margin-right: 0.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    letter-spacing: 0.063rem;
+    color: #333333; }
+  .inscripcionInicio a {
+    padding: 18px 30px;
+    transition: background-color .5s;
+    background-color: #333333;
+    font-size: 0.8rem;
+    letter-spacing: 0.125rem;
+    color: #f9f9f9; }
+  .inscripcionInicio a:hover {
+    background-color: #f9f9f9;
+    font-weight: bold;
+    color: #000; }
+
+/* FIN */
+/* FOOTER */
+.redes {
+  display: flex;
+  height: 8.125rem;
+  justify-content: center;
+  align-items: center; }
+  .redes svg {
+    width: 40px; }
+  .redes svg:hover {
+    transform: scale(1.1);
+    transition: 0.5s; }
+
+.separacion {
+  margin-right: 30px; }
+
+.copyright {
+  display: flex;
+  height: 3.125rem;
+  justify-content: center;
+  align-items: center;
+  background-color: #333333;
+  font-size: 0.813rem;
+  text-transform: uppercase;
+  color: #f9f9f9; }
+
+/* FIN */
+/* NOSOTROS */
+.nosotros .quoteGap {
+  margin-top: 3.5rem; }
+
+.nosotros .bgQuote {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #FC5C9C;
+  font-weight: bold;
+  letter-spacing: 0.094rem; }
+
+/* FIN */
+/* CLASES */
+.clases {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+  .clases h5 {
+    text-transform: uppercase;
+    font-size: 1rem; }
+
+.beneficios {
+  display: grid;
+  justify-content: center;
+  align-items: center; }
+  .beneficios h2 {
+    font-size: 1.1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #FC5C9C; }
+  .beneficios p {
+    width: 28rem;
+    text-align: center; }
+
+/* FIN */
+/* INSCRIPCION */
+.inscripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .inscripcion h5 {
+    font-size: 1rem;
+    text-transform: uppercase; }
+  .inscripcion a {
+    text-transform: uppercase; }
+  .inscripcion a:hover {
+    font-weight: bold;
+    color: #000; }
+  .inscripcion .bg1 {
+    background-color: #ffccd5; }
+  .inscripcion .bg2 {
+    background-color: #ffb3c1; }
+  .inscripcion .bg3 {
+    background-color: #ff8fa3; }
+  .inscripcion .bg4 {
+    background-color: #ff758f; }
+
+.inscripcionGap {
+  margin-top: 2rem; }
+
+/* FIN */
+/* CONTACTO */
+.contacto h2 {
+  text-transform: uppercase;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+  font-size: 1.2rem; }
+
+.contacto .info li {
+  list-style-type: none;
+  margin-bottom: 0.5rem; }
+
+.contacto .info a:hover {
+  color: #FC5C9C; }
+
+.contacto .btnEnviar {
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  background-color: #ff8fa3;
+  padding: 0.5rem 1rem;
+  border: none; }
+
+.contacto .btnEnviar:hover {
+  background-color: transparent;
+  border: 0.063rem solid #ff8fa3; }
+
+.mapa {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem; }
+
+/* FIN */
